@@ -1,7 +1,7 @@
 # Module recommender service
 
 Based on the grades student has, using collaborative filtering and
-Pierson Correlation appropriate module is returned to the active user.
+Pearson Correlation appropriate module is returned to the active user.
 
 ## Before starting this project
 
