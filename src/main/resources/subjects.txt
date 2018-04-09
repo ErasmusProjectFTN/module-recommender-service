@@ -1,0 +1,104 @@
+Year: 1, Semester: Winter
+	Mathematical Analysis 1
+	Algebra
+	Programming Languages and Data Structures
+	
+Year: 1, Semester: Summer
+	Physics
+	Fundamentals of Electrical Engineering
+	Computer Architecture
+	Elective Foreign Language 2
+		English Language – Intermediate
+		English Language – Advanced
+		German Language - Elementary
+Year: 2, Semester: Winter
+	System Modeling and Simulation
+	Logic Design of Computer Systems 1
+	Mathematical Analysis 2
+	Object Programming
+Year: 2, Semester: Summer
+	Operating Systems
+	Sociological Aspects of Technical Development
+	Automatic Control Systems
+	Real Time System Programming 1
+	Probability and Stochastic Processes
+Year: 3, Semester: Winter
+	Optimization Methods
+	Elective Course 1
+		Electronics
+		Databases 1
+		Real-time control systems
+	Elective Course 2
+		Fundamentals of Information Systems and Software Engineering
+		Real Time System Programming 2
+		Control Systems Technology
+	Elective Course 3
+		Numerical Algorithms and Numerical Software
+		Fundamentals of Computer Networks 1
+		Fundamentals of Process and Energy Engineering
+	Elective Course 4
+		Compilers
+		Fundamentals of DSP Architecture and Algorithms 1
+		Automation in smart office-residential buildings
+Year: 3, Semester: Summer
+	Elective Course 5
+		Computational Intelligence Fundamentals
+		Logic Design of Computer Systems 2
+		Software design for SCADA systems
+	Elective Course 6
+		Web Programming
+		Selected Chapters in Physical Architecture Design
+		Electrical Machines in Automatic Control Systems
+	Elective Course 7
+		Human Computer Interaction
+		Fundamentals of DSP Architecture and Algorithms 2
+		Geospatial Technologies
+	Elective Course 8
+		Internet Networks
+		Computer Network Fundamentals 2
+		Biomedical Engineering Technologies
+	Elective Course 9
+		Software Specification and Modeling
+		Dedicated Computer Structure Design 1
+		Microprocessor Based Control Devices
+Year: 4, Semester: Winter
+	Elective Course 10
+		Digital Control Systems
+		Software Design
+		DSP Architecture and Algorithms 1
+	Elective Course 11
+		Control Systems Design
+		Soft Computing
+		Television and Image Processing Software 1
+	Elective Course 12
+		Fundamentals of Biomedical Engineering
+		Computer Graphics
+		Intercomputer Communications and Computer Networks 1
+	Elective Course 13
+		Geoinformation Systems
+		Databases 2
+		Real Time Software 1
+	Elective Course 14
+		Technical Equipment for Control Systems
+		Internet Software Architectures
+		Real Time Software 2
+	Professional Practice – Project
+Year: 4, Semester: Summer
+	Elective Course 15
+		DSP Applications in Control Systems
+		XML and WEB Services
+		Dedicated Computer Structure Design 2
+	Elective Course 16
+		Methods of Medical Image Forming and Analysis
+		Information System Engineering
+		Knowledge Based Systems
+		Business Information Systems
+		Engineering of Computer Based Systems
+	Elective Course 17
+		Process Control by Computer
+		E-Business Systems Security
+		Database Systems
+		Software Patterns and Components
+		Distributed Artificial Intelligence and Intelligent Agents
+		DSP Architecture and Algorithms 2
+	Bachelor Thesis

@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#"
+     xml:base="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#hasModule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#hasModule">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Module"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#hasStudent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#hasStudent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Grade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#hasSubject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Grade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#fullName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#fullName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Student"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#grade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#grade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Grade"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#moduleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#moduleName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Module"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#password">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Student"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#subjectName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#subjectName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Subject"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#username">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Student"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Grade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Grade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Module -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Module"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Subject"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Matematička_analiza_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Matematička_analiza_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Subject"/>
+        <subjectName rdf:datatype="&xsd;string">Matematička analiza 1</subjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#grade_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#grade_1">
+        <grade rdf:datatype="&xsd;integer">10</grade>
+        <hasSubject rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#Matematička_analiza_1"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#student_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#student_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module#student_1">
+        <username rdf:datatype="&xsd;string">1</username>
+        <password rdf:datatype="&xsd;string">1</password>
+        <fullName rdf:datatype="&xsd;string">Student 1</fullName>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

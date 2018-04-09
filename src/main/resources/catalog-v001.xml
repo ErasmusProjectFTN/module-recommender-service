@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1522339713139" name="http://www.semanticweb.org/banevezilic/ontologies/2017/0/student" uri="student.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522339713139" name="duplicate:http://www.semanticweb.org/nina/ontologies/2016/11/ects" uri="application.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522339713139" name="duplicate:http://www.semanticweb.org/nina/ontologies/2016/11/ects" uri="ectsMloMerged_individuals.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522339713139" name="duplicate:http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module" uri="e2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522339713139" name="duplicate:http://www.semanticweb.org/svetozarstojkovic/ontologies/2018/2/module" uri="e2_individuals.owl"/>
+    </group>
+</catalog>

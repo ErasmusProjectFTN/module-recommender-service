@@ -1,0 +1,82 @@
+Module: Osnovni
+	Matematička analiza 1
+	Algebra
+	Programski jezici i strukture podataka
+    Engleski jezik - osnovni
+    Engleski jezik - srednji
+    Engleski jezik - viši
+	Fizika
+	Osnovi elektrotehnike
+	Arhitektura računara
+    Nemački jezik - osnovni
+	Modeliranje i simulacija sistema
+	Logičko projektovanje računarskih sistema 1
+	Matematička analiza 2
+	Objektno programiranje
+	Operativni sistemi
+	Sociološki aspekti tehničkog razvoja
+	Sistemi automatskog upravljanja
+	Sistemska programska podrška u realnom vremenu 1
+	Verovatnoća i slučajni procesi
+	Metode optimizacije
+	Stručna praksa- projekat
+Module: RT-RK
+    Elektronika
+    Sistemska programska podrška u realnom vremenu 2
+    Osnovi računarskih mreža 1
+    Osnovi algoritama i struktura DSP-a 1
+    Logičko projektovanje računarskih sistema 2
+    Odabrana poglavlja projektovanja fizičke arhitekture
+    Osnovi algoritama i struktura DSP-a 2
+    Osnovi računarskih mreža 2
+    Projektovanje namenskih računarskih struktura 1
+    Arhitekture i algoritmi DSP-a 1
+    Programska podrška u televiziji i obradi slike 1
+    Međuračunarske komunikacije i računarske mreže 1
+    Programska podrška u realnom vremenu 1
+    Programska podrška u realnom vremenu 2
+    Projektovanje namenskih računarskih struktura 2
+    Projektovanje sistema zasnovanih na računaru
+    Arhitekture i algoritmi DSP-a 2
+Module: Automatika
+    Upravljački algoritmi u realnom vremenu
+    Tehnologije upravljačkih sistema
+    Osnove procesne tehnike i energetike
+    Automatika u pametnim stambeno-poslovnim objektima
+    Projektovanje softvera nadzorno-upravljačkih sistema
+    Električne mašine u automatici
+    Geoinformacione tehnologije
+    Tehnologije biomedicinskog inženjeringa
+    Mikroprocesorski upravljački uređaji
+    Digitalni upravljački sistemi
+    Projektovanje sistema automatskog upravljanja
+    Osnove biomedicinskog inženjerstva
+    Geoinformacioni sistemi
+    Tehnička sredstva automatike
+    Primena DSP u upravljanju
+    Metode formiranja i analize medicinske slike
+    Upravljanje procesima računarom
+Module: PRNI
+    Osnovi računarske inteligencije
+    Veb programiranje
+    Interakcija čovek računar
+    Internet mreže
+    Specifikacija i modeliranje softvera
+    Projektovanje softvera
+    Soft kompjuting
+    Računarska grafika
+    Baze podataka 2
+    Internet softverske arhitekture
+    XML i veb servisi
+Module: Internet i elektronsko poslovanje
+    Poslovna informatika
+    Bezbednost u sistemima elektronskog poslovanja
+Module: Informacioni sistemi
+    Inženjering informacionih sistema
+    Sistemi baza podataka
+Module: Inteligentni sistemi
+    Sistemi bazirani na znanju
+    Agentske tehnologije
+Module: Softversko inzenjerstvo
+    Poslovna informatika
+    Softverski obrasci i komponente

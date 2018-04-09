@@ -1,0 +1,107 @@
+Godina: 1, Semestar: Zimski
+	Matematička analiza 1
+	Algebra
+	Programski jezici i strukture podataka
+	Izborni strani jezik 1
+		Engleski jezik - osnovni
+		Engleski jezik - srednji
+		Engleski jezik - viši
+Godina: 1, Semestar: Letnji
+	Fizika
+	Osnovi elektrotehnike
+	Arhitektura računara
+	Izborni strani jezik
+		Engleski jezik - srednji
+		Engleski jezik - viši
+		Nemački jezik - osnovni
+Godina: 2, Semestar: Zimski
+	Modeliranje i simulacija sistema
+	Logičko projektovanje računarskih sistema 1
+	Matematička analiza 2
+	Objektno programiranje
+Godina: 2, Semestar: Letnji
+	Operativni sistemi
+	Sociološki aspekti tehničkog razvoja
+	Sistemi automatskog upravljanja
+	Sistemska programska podrška u realnom vremenu 1
+	Verovatnoća i slučajni procesi
+Godina: 3, Semestar: Zimski
+	Metode optimizacije
+	Izborni predmet 1
+		Elektronika
+		Baze podataka 1
+		Upravljački algoritmi u realnom vremenu
+	Izborni predmet 2
+		Osnovi informacionih sistema i softverskog inženjerstva
+		Sistemska programska podrška u realnom vremenu 2
+		Tehnologije upravljačkih sistema
+	Izborni predmet 3
+		Numerički algoritmi i numerički softver
+		Osnovi računarskih mreža 1
+		Osnove procesne tehnike i energetike
+	Izborni predmet 4
+		Programski prevodioci
+		Osnovi algoritama i struktura DSP-a 1
+		Automatika u pametnim stambeno-poslovnim objektima
+Godina: 3, Semestar: Letnji
+	Izborni predmet 5
+		Osnovi računarske inteligencije
+		Logičko projektovanje računarskih sistema 2
+		Projektovanje softvera nadzorno-upravljačkih sistema
+	Izborni predmet 6
+		Veb programiranje
+		Odabrana poglavlja projektovanja fizičke arhitekture
+		Električne mašine u automatici
+	Izborni predmet 7
+		Interakcija čovek računar
+		Osnovi algoritama i struktura DSP-a 2
+		Geoinformacione tehnologije
+	Izborni predmet 8
+		Internet mreže
+		Osnovi računarskih mreža 2
+		Tehnologije biomedicinskog inženjeringa
+	Izborni predmet 9
+		Specifikacija i modeliranje softvera
+		Projektovanje namenskih računarskih struktura 1
+		Mikroprocesorski upravljački uređaji
+Godina: 4, Semestar: Zimski
+	Izborni predmet 10
+		Digitalni upravljački sistemi
+		Projektovanje softvera
+		Arhitekture i algoritmi DSP-a 1
+	Izborni predmet 11
+		Projektovanje sistema automatskog upravljanja
+		Soft kompjuting
+		Programska podrška u televiziji i obradi slike 1
+	Izborni predmet 12
+		Osnove biomedicinskog inženjerstva
+		Računarska grafika
+		Međuračunarske komunikacije i računarske mreže 1
+	Izborni predmet 13
+		Geoinformacioni sistemi
+		Baze podataka 2
+		Programska podrška u realnom vremenu 1
+	Izborni predmet 14
+		Tehnička sredstva automatike
+		Internet softverske arhitekture
+		Programska podrška u realnom vremenu 2
+	Stručna praksa- projekat
+Godina: 4, Semestar: Letnji
+	Izborni predmet 15
+		Primena DSP u upravljanju
+		XML i veb servisi
+		Projektovanje namenskih računarskih struktura 2
+	Izborni predmet 16
+		Metode formiranja i analize medicinske slike
+		Inženjering informacionih sistema
+		Sistemi bazirani na znanju
+		Poslovna informatika
+		Projektovanje sistema zasnovanih na računaru
+	Izborni predmet 17
+		Upravljanje procesima računarom
+		Bezbednost u sistemima elektronskog poslovanja
+		Sistemi baza podataka
+		Softverski obrasci i komponente
+		Agentske tehnologije
+		Arhitekture i algoritmi DSP-a 2
+	Završni - diplomski rad

@@ -1,0 +1,3 @@
+1. Kopiraj config.ttl u fuseki/run folder
+2. pokreni fuseki sa ./fuseki-server --update --config=run/config.ttl
+--------------------------------------------------------------------------
