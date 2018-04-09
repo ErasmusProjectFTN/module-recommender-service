@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ErasmusProject</groupId>
-	<artifactId>triple-store-service</artifactId>
+	<artifactId>module-recommender-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>triple-store-service</name>
-	<description>TripleStore</description>
+	<name>module-recommender-service</name>
+	<description>Module Recommender</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
