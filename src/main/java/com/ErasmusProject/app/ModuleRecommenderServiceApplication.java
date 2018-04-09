@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.ErasmusProject.app","com.ErasmusProject.rest", "com.ErasmusProject.util"})
+@ComponentScan(basePackages = { "com.ErasmusProject.app", "com.ErasmusProject.controller", "com.ErasmusProject.util"})
 public class ModuleRecommenderServiceApplication {
 
 	public static void main(String[] args) {
