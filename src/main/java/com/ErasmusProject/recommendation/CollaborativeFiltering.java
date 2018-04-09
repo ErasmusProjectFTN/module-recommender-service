@@ -16,6 +16,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import static java.lang.Double.NaN;
+
 public final class CollaborativeFiltering {
 
     private GradeService gradeService = new GradeServiceImpl();
@@ -50,15 +52,19 @@ public final class CollaborativeFiltering {
             for (Grade grade : moduleGrades.getGrades()) {
                 if (subjects.containsKey(grade.getSubject())) {
                     grades.set(subjects.get(grade.getSubject()), (double) grade.getGrade());
-                    average += (double) grade.getGrade();
-                    avgCounter++;
                 }
+                average += (double) grade.getGrade();
+                avgCounter++;
             }
 
             double[] gradesArray = ArrayUtils.toPrimitive(grades.toArray(new Double[myGrades.size()]));
 
             double value = new PearsonsCorrelation().correlation(myGradesArray, gradesArray);
             value = (value + 1) * 5 * (average/avgCounter);
+
+            if (Double.isNaN(value)) {
+                value = 0.0;
+            }
 
             if (!output.containsKey(moduleGrades.getModule()) ) {
                 output.put(moduleGrades.getModule(), value);
