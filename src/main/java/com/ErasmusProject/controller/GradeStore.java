@@ -70,7 +70,13 @@ public class GradeStore {
         Set<String> subjects = json.keySet();
         for (String subject : subjects) {
             if (!"student".equals(subject)) {
-                int grade = Integer.parseInt(json.getString(subject));
+                int grade;
+                if ((json.getString(subject)).equals("undefined")) {
+                    grade = 0;
+                } else {
+                    grade = Integer.parseInt(json.getString(subject));
+                }
+
                 if (grade != 0)
                     studentGrades.put(subject, grade);
             }
