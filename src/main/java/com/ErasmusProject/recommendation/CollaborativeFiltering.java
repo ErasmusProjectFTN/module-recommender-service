@@ -90,7 +90,6 @@ public final class CollaborativeFiltering {
         int all = 0;
 
         for (String studentId : students.keySet()) {
-            System.out.println(studentId);
             ModuleGrades moduleGrades = students.get(studentId);
             Map<String, Integer> studentGrades = new HashMap<>();
             for (Grade grade : moduleGrades.getGrades()) {
