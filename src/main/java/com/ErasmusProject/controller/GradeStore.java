@@ -59,7 +59,10 @@ public class GradeStore {
         dataBinder.registerCustomEditor(QueryType.class, new QueryTypeConverter());
     }
 
-
+    @RequestMapping(method = RequestMethod.GET, value = "/verify")
+    public String verify() {
+        return "System accuracy is: " + String.format( "%.2f", collaborativeFiltering.getSystemAccuracy() * 100) + "%";
+    }
 
     @RequestMapping(method = RequestMethod.POST, value = "/collaborative")
     public Map<String, Double> collaborative(@RequestBody String studentGradesJSON)   {

@@ -23,9 +23,16 @@ public final class CollaborativeFiltering {
     private GradeService gradeService = new GradeServiceImpl();
 
     public Map<String, Double> calculatePearsonCorrelation(Map<String, Integer> studentGrades) {
-        Map<String, Double> output = new HashMap<>();
-
         Map<String, ModuleGrades> students = gradeService.getGrades();
+
+        return calculateSpecificPearsonCorrelation(studentGrades, students);
+    }
+
+    private Map<String, Double> calculateSpecificPearsonCorrelation(Map<String, Integer> studentGrades, Map<String, ModuleGrades> students) {
+        if (studentGrades.size() < 2)
+            return new HashMap<>();
+
+        Map<String, Double> output = new HashMap<>();
 
         Map<String, Integer> subjects = new HashMap<>();
         int i=0;
@@ -74,6 +81,39 @@ public final class CollaborativeFiltering {
         }
 
         return sortByValue(output);
+
+    }
+
+    public double getSystemAccuracy() {
+        Map<String, ModuleGrades> students = gradeService.getGrades();
+        int accurate = 0;
+        int all = 0;
+
+        for (String studentId : students.keySet()) {
+            System.out.println(studentId);
+            ModuleGrades moduleGrades = students.get(studentId);
+            Map<String, Integer> studentGrades = new HashMap<>();
+            for (Grade grade : moduleGrades.getGrades()) {
+                studentGrades.put(grade.getSubject(), grade.getGrade());
+            }
+
+            Map<String, Double> specific = calculateSpecificPearsonCorrelation(studentGrades, students);
+            double subjectProbability = 0.0;
+            String correlationSubject = "";
+            for (String subject : specific.keySet()) {
+                double tempProbability = specific.get(subject);
+                if (tempProbability > subjectProbability) {
+                    correlationSubject = subject;
+                    subjectProbability = tempProbability;
+                }
+            }
+            if (moduleGrades.getModule().equals(correlationSubject)) {
+                accurate++;
+            }
+            all++;
+        }
+
+        return (double) accurate / all;
 
     }
 
